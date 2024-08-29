@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="carregar()">
+    <header>
+        <h1>Como está o dia hoje?</h1>
+    </header>
+    <section>
+
+        <div id="relogio">
+            <!-- O relógio será exibido aqui -->
+        </div>
+        <div id="mensagem1">
+            clima
+        </div>
+        <div id="mensagem">
+            mensagem
+        </div>
+        <div>
+            <img id="foto" src="img/lua-nova.png" alt="lua">
+        </div>
+    </section>
+    <footer>
+        <p>
+            <a href="https://github.com/Lauragpse" target="_blank">Desenvolvido por Laura Leite
+                <img src="img/github.png" width="15px"> </a>
+        </p>
+    </footer>
+
+    <!-- Caixa de diálogo -->
+    <div id="dialogo" class="dialogo">
+        <p>Como está o clima?</p>
+        <button onclick="escolherClima('estavel')">Clima Estável</button>
+        <button onclick="escolherClima('chuvoso')">Clima Chuvoso</button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
