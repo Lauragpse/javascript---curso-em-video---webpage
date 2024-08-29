@@ -24,7 +24,7 @@ header {
 }
 
 section {
-    background-color: white;
+    background-color: (--cor4);
     border-radius: 15px;
     padding: 15px;
     width: 90%;
